@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical"
+    android:id="@+id/llContainer"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uno"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/btUno"
+            android:onClick="ocGlobal"
+            android:background="#E91E63"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dos"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/btDos"
+            android:onClick="ocGlobal"
+            android:background="#DC4E7E"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tres"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/btTres"
+            android:onClick="ocGlobal"
+            android:background="#E87BA0"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
